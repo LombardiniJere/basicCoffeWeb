@@ -1,0 +1,26 @@
+{
+  "name": "basiccoffeweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/LombardiniJere/basicCoffeWeb.git"
+  },
+  "author": "Lombardini Jeremias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LombardiniJere/basicCoffeWeb/issues"
+  },
+  "homepage": "https://github.com/LombardiniJere/basicCoffeWeb#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.60.0"
+  }
+}
